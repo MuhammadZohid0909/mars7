@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(./img/placeholder.svg); background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-emphasis-color: white;
+    font-family: Helvetica ;
+    font-size: 14px;
+
+  text-decoration: none;
+}
+
+
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+    width: 1100px;
+}
+
+.title2{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.2px;
+    width: 595px;
+}
+
+.btn button{
+    color: var(--Black, #1A1A1A);
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    border-radius: 43px;
+    background: #34C759;
+    width: 220px;
+    height: 72px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.title3{
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.title4{
+    color: #929292;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.box1{ 
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.title5{
+    color: #303030;
+    font-family: Helvetica Neue;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150px; /* 150% */
+    letter-spacing: 20px;
+}
+
+.title6{
+    color: #D9D9D9;
+    font-family: Helvetica Neue;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 200% */
+    letter-spacing: 6px;
+}
+
+.title7{
+    color: #A6A6A6;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    width: 734px;
+}
